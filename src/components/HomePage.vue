@@ -1,13 +1,13 @@
 <template>
-    <div>
-      <h1>Welcome to My Website</h1>
-      <p>This is the homepage of my website.</p>
+  <div class="home-page">
+    <h1>Welcome to IE Bank Corporation</h1>
+    <p>This is the homepage of my website.</p>
     <div class="button-container">
       <router-link to="/skull" class="button">Skull</router-link>
       <router-link to="/accounts" class="button">Accounts</router-link>
     </div>
-    </div>
-  </template>
+  </div>
+</template>
   
   <script>
   export default {
@@ -16,14 +16,42 @@
   </script>
   
   <style scoped>
-  h1 {
-    color: #333;
-    font-size: 24px;
-  }
-  
-  p {
-    color: #666;
-    font-size: 16px;
-  }
-  </style>
-  
+.home-page {
+  background-image: url('src/assets/images/image-backround1.jpg-to-your-image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+p {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.buttons {
+  display: flex;
+  gap: 16px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #fff;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+</style>

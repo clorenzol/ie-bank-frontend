@@ -17,7 +17,7 @@
   
   <style scoped>
 .home-page {
-  background-image: url('src/assets/images/image-backround1.jpg-to-your-image.jpg');
+  background-image: url('../assets/images/image-backround1.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

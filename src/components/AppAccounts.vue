@@ -10,6 +10,10 @@
             message
           }}</b-alert>
           <!-- b-alert v-if="error" variant="danger" show>{{ error }}</b-alert-->
+          <router-link to="/" 
+            type="button"
+            class="btn btn-success btn-sm">Home Page</router-link>
+          <hr />
           <button
             type="button"
             class="btn btn-success btn-sm"
